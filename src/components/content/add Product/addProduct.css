@@ -1,0 +1,85 @@
+.addProductWrap{
+    flex: 9;
+    padding-top: 2px;
+    background: #f2f2f2;
+    position: relative;
+}
+.toggleWrapper{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    width: 100%;
+    height: 20px;
+    background: white;
+    padding-top: 50px;
+}
+
+.productHeading{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.toggleItem>button{
+    border: none;
+    outline: none;
+    background: none;
+    margin: 0 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.toggleItem button.active {
+    color: blue;
+}
+
+.productForm{
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    /* height: 85vh; */
+}
+
+.productBtn{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border: none;
+    outline: none;
+    background: #2121f7;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.productFormWrapper{
+    padding: 20px;
+}
+.ProductformItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+
+.ProductformItem>input{
+    width: 100%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.form-group>input,textarea{
+    height: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h4{
+    margin-top: 20px;
+}

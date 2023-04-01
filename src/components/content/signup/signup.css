@@ -1,0 +1,96 @@
+.signupWrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../../../assets/images/thumbnails/login.png");
+    background-size: cover;
+    position: relative;
+}
+
+.signup {
+    width: 30%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.signupImg {
+    margin-top: 50px;
+}
+
+.signupAccount {
+    color: gray;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.signupAccountSpan {
+    color: blue;
+    cursor: pointer;
+}
+
+.singupForm {
+    padding-top: 30px;
+}
+
+.inputFieldWrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.important {
+    color: red;
+    padding: 0 0.2em;
+}
+
+.inputField {
+    height: 30px;
+    border: 1px solid #F3F3FA;
+    border-radius: 12px;
+    outline: none;
+    padding: 5px;
+}
+
+.error-icon {
+    color: red;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top: 8px;
+}
+
+.signupBtn {
+    width: 200px;
+}
+
+.signupBtn>button {
+    width: 100%;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(41 53 183);
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+
+    .signup {
+        width: 60%;
+    }
+
+}
